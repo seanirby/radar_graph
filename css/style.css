@@ -1,0 +1,57 @@
+.inline-block{
+    vertical-align: top;
+    display: inline-block;
+}
+
+#canvas{
+    width: 100%;
+    height: 100%;
+    font-family: "Arial", Arial;
+    color: #505050;
+}
+
+
+
+button{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#data{
+    position: absolute;
+    top: 0;
+    left: 60%;
+    font-size: 10px;
+}
+
+.web{
+    fill: none;
+    stroke: grey;
+    stroke-width: 1px;
+}
+
+.competency path{
+    stroke-width: 2px;
+    fill-opacity: 0.7;
+}
+
+.competency circle{
+    stroke-width: 1px;
+    fill-opacity: 0.7;
+}
+
+text {
+    fill: #505050;
+}
+
+.user.competency path, .user.competency circle{
+    fill: lightsteelblue;
+    stroke: lightsteelblue;
+}
+
+.role.competency path, .role.competency circle{
+    fill: pink;
+    stroke: pink;
+}
+
